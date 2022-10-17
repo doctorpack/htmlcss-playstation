@@ -1,0 +1,243 @@
+.game-chosen .container-fluid {
+    background-image: url("../img/jumbo-bg.png");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 12rem;
+}
+
+.it-takes-two .container-fluid {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.new-release {
+    background-color: #1f1f1f;
+}
+
+.first-section img {
+    min-width: 170px;
+    
+}
+
+
+/* Navbar ed interazione con menù a tendina */
+
+.navbar-collapse{
+    background-color: white;
+}
+body {
+	margin-top: 75px;
+	/* background-color: salmon; */
+}
+
+nav .container-fluid {
+    height: 45px;
+}
+
+.bar-sony {
+	height: 30px;
+}
+
+
+.dropdown {
+	position: static;
+}
+
+.dropdown-menu[data-bs-popper] {
+	width: 100%;
+	margin-top: 0;
+}
+
+.dropdown-menu {
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu.show {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.dropdown-item {
+	text-align: center;
+}
+
+.dropdown-item img {
+	display: block;
+	width: 100%;
+}
+
+/* MAIN ZONE */
+.blue-subtitle{
+    color: blue;
+    text-decoration:none;
+    text-align: center;
+    margin-top: 10rem;
+}
+.container-presentation{
+    text-align: center;
+}
+.grey-subtitle{
+    color: grey;
+    opacity: 50%;
+}
+h2{
+    font-size: 3rem;
+}
+h6{
+    font-size: 20px;
+}
+
+.spaziatore-presentation{
+    margin:5rem
+
+}
+
+
+
+
+#first-card {
+    border-radius: 0 !important;
+}
+
+
+.ps-plus {
+    background-color: sandybrown;
+}
+
+.ps-now {
+    background-color: blue;
+}
+
+footer {
+    background-color: blue;
+}
+
+footer .list {
+    gap: 2rem;
+}
+
+footer .span {
+    width:fit-content;
+}
+
+
+
+
+
+/* General Styles */
+
+.my_h2 {
+    font-size: 1.7rem;
+}
+
+.my_text {
+    font-size: .7rem;
+}
+
+.my_text-1 {
+    font-size: .9rem;
+}
+/* FIX POSIZIONE GAME-BAR ACCESSORI */
+.flex-card{
+    display: flex;
+    justify-content: space-between;
+}
+/* IT-TAKE-TWO-ZONE */
+.background-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+.ps__button {
+    color: var(--ps-text-w);
+    padding: 6px 15px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .4);
+
+}
+.color-white{
+    color: white;
+}
+.fix-size{
+    width: 100%;
+}
+.max-width-card{
+    width: 100%;
+}
+.release-zone{
+    background-color: black;
+}
+/* MAKE-TEXT-WHITE */
+.text-white{
+    text-decoration: white;
+}
+.text-size-release{
+    text-size-adjust: 200%;
+}
+
+/* PS PLUS ZONE */
+
+.background-grey{
+    background-color: rgb(182, 161, 161);
+}
+.items-size-plus{
+    height: 100px;
+}
+.fix-position-plus{
+    align-items: center;
+}
+.size-logo-plus{
+    height: 100px;
+}
+.background-grey{
+    background-color: #c2b3b3;
+}
+
+/* NEW DISCOUNT ZONE */
+
+.psstore-section{
+    margin-top: 4rem;
+}
+
+.pstore-title {
+    text-align: center;
+    font-size:;
+}
+
+.psstore-section .col-12{
+    margin: 2rem 0;
+}
+.discount-size-image{
+    height: 420px;
+}
+
+/* PS-NOW-ZONE */
+
+.background-blue{
+    background-color:#00004b;
+}
+
+/* SOCIAL SECTION ZONE */
+
+.social-section{
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.social-container{
+    width: 60%;
+    margin: 0 auto;
+}
+.social-size-img{
+width: 100%;
+}
+/* FOOTER */
+
+footer{
+    background-color: #00439c;
+    color: white;
+}
