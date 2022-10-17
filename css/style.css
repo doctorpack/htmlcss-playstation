@@ -1,9 +1,20 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    body {margin-top: 111px;}
+    a {text-decoration: none;}
+    
+}
+
 .game-chosen .container-fluid {
     background-image: url("../img/jumbo-bg.png");
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 12rem;
+}
+
+.border-card{
+    border-radius: 20px;
 }
 
 .it-takes-two .container-fluid {
@@ -84,6 +95,11 @@ nav .container-fluid {
 .grey-subtitle{
     color: grey;
     opacity: 50%;
+
+}
+
+.fix-size-grey-title{
+    text-size-adjust: 150%;
 }
 h2{
     font-size: 3rem;
@@ -96,9 +112,19 @@ h6{
     margin:5rem
 
 }
+/* EFFETTI CARDS  */
+.img-effects{
+    transition: transform .2s ease-in-out,
+     box-shadow .2s ease-in-out;
+}
 
+.img-effects:hover {
+    outline: 2px solid var(--ps-blue);
+    outline-offset: 2px;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px 4px rgba(0, 0, 0, .2);
 
-
+}
 
 #first-card {
     border-radius: 0 !important;
@@ -129,7 +155,7 @@ footer .span {
 
 
 
-/* General Styles */
+/* FIX-TEXT */
 
 .my_h2 {
     font-size: 1.7rem;
@@ -211,6 +237,7 @@ footer .span {
 .psstore-section .col-12{
     margin: 2rem 0;
 }
+
 .discount-size-image{
     height: 420px;
 }
@@ -232,6 +259,7 @@ footer .span {
     width: 60%;
     margin: 0 auto;
 }
+
 .social-size-img{
 width: 100%;
 }
@@ -241,3 +269,59 @@ footer{
     background-color: #00439c;
     color: white;
 }
+
+.copyright{
+    padding-top: 2rem;
+}
+
+.copyright .footer-img{
+    width: 25%;
+    margin-bottom: 1rem;
+}
+.footer-img{
+    height: 50px;
+}
+
+
+.copyright .footer-p{
+    margin-bottom: 0;
+    padding-bottom: 7rem;
+}
+.fix-position-language{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.fix-info{
+    text-decoration: underline;
+    color: white;
+}
+
+.ps-button-orange {
+    background-color: #dc3500;
+    color:white;
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 40%);
+}
+
+.playstation-blu-button{
+    background-color: #0088fc;
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 40%);color: var(--ps-text-w);
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 40%);
+}
+.playstation-grey-button{
+    color: var(--ps-text-w);
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 40%);
+}
+
