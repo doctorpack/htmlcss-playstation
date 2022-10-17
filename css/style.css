@@ -119,12 +119,20 @@ h6{
 }
 
 .img-effects:hover {
-    outline: 2px solid var(--ps-blue);
+    outline: 2px solid var(blue);
     outline-offset: 2px;
     transform: translateY(-5px);
     box-shadow: 0 10px 10px 4px rgba(0, 0, 0, .2);
 
 }
+/* EFFETTI ACCESSORI */
+
+
+.img-effects-2 :hover {
+    border-bottom: 2px solid var(blue);
+    margin-bottom: -2px;
+}
+
 
 #first-card {
     border-radius: 0 !important;
@@ -296,6 +304,10 @@ footer{
     text-decoration: underline;
     color: white;
 }
+.ps-button:hover {
+    outline: 2px solid var();
+    outline-offset: 2px;
+}
 
 .ps-button-orange {
     background-color: #dc3500;
@@ -321,6 +333,13 @@ footer{
     color: var(--ps-text-w);
     padding: 5px 15px;
     border-radius: 30px;
+    border: none;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 40%);
+}
+
+.ps-button-now{
+    background-color: white;
+    border-radius: 25px;
     border: none;
     box-shadow: 2px 4px 8px rgb(0 0 0 / 40%);
 }
